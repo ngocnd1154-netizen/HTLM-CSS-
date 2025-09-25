@@ -1,0 +1,76 @@
+<!DOCTYPE html> 
+  <!-- 
+1. h1 - h6 - heading (tiêu đề )
+2. p - paragraph ( đoạn văn )
+3. img - image (hiện thị hình ảnh )
+4 a - anchor (hiện thi thẻ liên kết đường link khác )
+5. ul, li - unordered list, list item (hiện thị những danh sách )
+6. table - ( tạo bảng )
+7. input -
+8. button - nút
+9. div 
+    -->
+<html>
+    <!--phan dau -->
+    <head>
+      <title>Duy-ngoc</title>
+      <meta charset="utf-8">
+    </head>
+
+    <!-- phần thân -->
+    <body>
+        <!-- 9 -->
+        <div>
+            <!-- 1 -->
+            <h1> Antony chói sáng, Betis cầm chân Nottingham Forest trận mở màn Europa League</h1>  
+        
+            <!-- 7 -->
+        <input name="gender" type ="radio">
+        <input name="gender" type ="radio"> 
+        <input name="gender" type ="radio"> 
+
+        <!-- 8 -->
+        <button> Đăng nhập tài khoản </button>
+
+        
+        <!-- 2 -->
+        <p>Trên sân La Cartuja (Sevilla), Betis nhập cuộc hứng khởi và sớm có bàn mở tỉ số ở phút 15. Antony – cựu cầu thủ Man United – đi bóng lắt léo bên cánh phải trước khi căng ngang để Cédric Bakambu tung cú sút chìm đánh bại thủ môn đội khách.</p>
+        <!-- 3 -->
+        <img src="https://nld.mediacdn.vn/291774122806476800/2025/9/24/anh-chup-man-hinh-2025-09-25-luc-055514-17587552756761291063516.png" alt=" Cedric Bakambu mở tỉ số sớm cho Real Betis  ">
+        <!-- 4 -->
+        <a href="https://nld.com.vn/antony-choi-sang-betis-cam-chan-nottingham-forest-tran-mo-man-europa-league-196250925061927465.htm">Tới trang tin bóng đá </a>
+        <!-- 5 -->
+        <ul>
+            <li> Antony tỏa sáng </li>
+            <li> Người anh hùng mới của đội bóng</li>
+            
+        </ul>
+        <!-- 6 -->
+        <table>
+            <thead>
+                <th>Số áo </th>
+                <th>Tên</th>
+                <th> quốc gia</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> 7 </td>
+                    <td> Antony </td>
+                    <td> brazil </td>
+                </tr>
+                <tr>
+                    <td> 11 </td>
+                    <td> Bakambu </td>
+                    <td> Nam phi </td>
+                </tr>
+                <tr>
+                    <td> 10 </td>
+                    <td> iscol </td>
+                    <td> tây ban nha </td>
+                </tr>
+
+            </tbody>
+        </table>
+        </div>
+    </body>
+</html>
