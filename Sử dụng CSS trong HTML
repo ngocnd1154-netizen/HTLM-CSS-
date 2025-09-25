@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html>
+   
+    <head>
+      <title> Shop siêu xe  </title> 
+      <meta charset="utf-8"> 
+      <!-- <link rel="stylesheet" href="main.css"> --> ( External )
+      // Internal
+      <!-- <style>
+        h1 {   ==>> copy này qua file css để thực hiện External
+            color:aqua; 
+            font-size: 30px;
+        }
+      </style> -->
+    </head>
+  
+    <body>
+        <div>
+            // Inline 
+            <h1 style = "color: red; font-size:16xp"> Shop siêu xe </h1> 
+             <ol>  <!--thay ul bằng ol sẽ đổi số -->
+                <li>Internal</li>
+                <li>External</li>
+                <li>Inline</li>
+            </ol>
+        </div>
+    </body>
+</html>
+Internal: Viết trong cặp thẻ <style> và nằm trong phần <head> của file html và viết css trong đó 
+External: tạo ra file css bên ngoài , hoặc đường bên ngoài internet sử dụng 1 cặp thẻ link để dẫn đến file css đó 
+Inline: sử dụng một Attribute trong mở của html viết các thuộc tính vào nó. 
+
+
+
