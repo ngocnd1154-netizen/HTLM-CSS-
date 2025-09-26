@@ -4,7 +4,8 @@
 2. p - paragraph ( đoạn văn )
 3. img - image (hiện thị hình ảnh )
 4 a - anchor (hiện thi thẻ liên kết đường link khác )
-5. ul, li - unordered list, list item (hiện thị những danh sách )
+5. ul, li - unordered list, list item (hiện thị những danh sách bằng dấu chấm ở đầu hàng) 
+Lưu ý: ngoài ra <ol> hiện thị thứ tự danh sách. 
 6. table - ( tạo bảng )
 7. input -
 8. button - nút
@@ -34,7 +35,9 @@
 
         
         <!-- 2 -->
-        <p>Trên sân La Cartuja (Sevilla), Betis nhập cuộc hứng khởi và sớm có bàn mở tỉ số ở phút 15. Antony – cựu cầu thủ Man United – đi bóng lắt léo bên cánh phải trước khi căng ngang để Cédric Bakambu tung cú sút chìm đánh bại thủ môn đội khách.</p>
+        <p>Trên sân La Cartuja (Sevilla), Betis nhập cuộc hứng khởi và sớm có bàn mở tỉ số ở phút 15. 
+Antony – cựu cầu thủ Man United – đi bóng lắt léo bên cánh phải trước khi căng ngang để Cédric Bakambu 
+tung cú sút chìm đánh bại thủ môn đội khách.</p>
         <!-- 3 -->
         <img src="https://nld.mediacdn.vn/291774122806476800/2025/9/24/anh-chup-man-hinh-2025-09-25-luc-055514-17587552756761291063516.png" alt=" Cedric Bakambu mở tỉ số sớm cho Real Betis  ">
         <!-- 4 -->
