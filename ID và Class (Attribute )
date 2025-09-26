@@ -1,5 +1,5 @@
 - CSS selectors
-  * ID và ss: Dùng để thay đổi điều chỉnh đối tượng mà bạn muốn. 
+  * ID và ss: Dùng để thay đổi điều chỉnh thẻ mà bạn muốn. 
 __index.html___ 
 <!DOCTYPE html> 
 <html>
