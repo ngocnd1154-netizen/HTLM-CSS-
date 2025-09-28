@@ -41,8 +41,8 @@ VD:
 __ index.html__ 
 <div>
             <h1 class ="title "> Nguyễn Duy Ngọc </h1>
-            <h2 class ="title"> Nguyễn Duy Ngọc</h1> ( thẻ mà bạn tác động )
-            <h3 class ="title"> Nguyễn Duy Ngọc</h1>
+            <h2 class ="title"> Nguyễn Duy Ngọc</h2> ( thẻ mà bạn tác động )
+            <h3 class ="title"> Nguyễn Duy Ngọc</h3>
  </div>
 ___main.css__ 
 h2.title
