@@ -1,1 +1,131 @@
+.class1.class2 : tác động đến thẻ bạn muốn 
+VD: 
+____index.html___ 
+<div>
+            <h1 class ="title heading"> Nguyễn Duy Ngọc </h1> (thẻ bị tác động )
+            <h1 class ="heading title"> Nguyễn Duy Ngọc</h1>  (thẻ bị tác động )
+            <h1 class ="title"> Nguyễn Duy Ngọc</h1>
+            <h1 class ="title"> Nguyễn Duy Ngọc</h1>
+         </div>
+
+___main.css___ 
+.title.heading 
+{
+    color: green; 
+}
+
+.class1 .class2: tác động đến thẻ con mà bạn muốn ( tác động 1 thẻ duy nhất kiểu box ) 
+VD: 
+___index.html__ 
+<div>
+            <h1 class ="title "> Nguyễn Duy Ngọc</h1>
+            <h1 class ="title"> Nguyễn Duy Ngọc</h1>
+            <h1 class ="title"> Nguyễn Duy Ngọc</h1>
+         </div>
+         <div class="box">
+               <div>
+                <div>
+                  <h1 class ="title"> Nguyễn Duy Ngọc</h1> ( thẻ con mà bạn tác động ) 
+                </div>
+               </div>
+         </div>
+___main.css___ 
+.box .title {
+     color: red; 
+}
+
+* : chọn tất cả thẻ 
+
+.element.class: bạn muốn tác động lên một thẻ ( 1 thẻ bị tác động kiểu h ) 
+VD: 
+__ index.html__ 
+<div>
+            <h1 class ="title "> Nguyễn Duy Ngọc </h1>
+            <h2 class ="title"> Nguyễn Duy Ngọc</h1> ( thẻ mà bạn tác động )
+            <h3 class ="title"> Nguyễn Duy Ngọc</h1>
+ </div>
+___main.css__ 
+h2.title
+{
+    color: red;  
+}
+
+.element, .element: viết gộm các thẻ có 1 điểm chung giống nhau 
+VD: 
+___index.html___ 
+<div>
+            <h1 class ="title1"> Nguyễn Duy Ngọc </h1>
+            <h2 class ="title2"> Nguyễn Duy Ngọc</h1>
+            <h3 class ="title3"> Nguyễn Duy Ngọc</h1>
+</div> 
+____main.css____ 
+.title1 {
+    
+    font-style:italic; 
+}
+.title2 {
+    
+    text-decoration:underline ; 
+}
+.title3 {
+  
+    text-decoration: line-through; 
+} 
+.title1, .title2, .title3 
+{
+    color: red; 
+} 
+
+.element > .element: con trực tiếp 
+_____htmL____
+<div>
+            <h2 class ="title"> Nguyễn Duy Ngọc</h2>
+
+            <div class="box">
+              <h2 class ="title"> Huỳnh Thị Ngọc Phương </h2> <== thẻ bị tác động là con trực tiếp 
+              <div>
+                <h2 class ="title"> Nguyễn Duy Ngọc</h2>
+              </div>
+            </div>
+         </div>
+___css___ 
+.box > .title 
+{
+    color: red; 
+}
+.element + .element: chọn thẻ đứng đằng sau (thẻ đầu tiên sẽ ko đc chọn) 
+VD: 
+____HTML___ 
+<div>
+            <h2 class ="title"> Nguyễn Duy Ngọc</h2> <=== chọn phía sau thẻ đầu tiên 
+            <h2 class ="title"> Nguyễn Duy Ngọc</h2>
+            <h2 class ="title"> Nguyễn Duy Ngọc</h2>
+            <h2 class ="title"> Nguyễn Duy Ngọc</h2>
+            <h2 class ="title"> Nguyễn Duy Ngọc</h2> 
+ </div> 
+
+___CSS___ 
+.title + .title 
+{
+    color: red;
+    font-size: 30px; 
+} 
+.element ~ .element: chọn tất cả thẻ đều có điểm chung class, trừ thẻ đầu tiên 
+____HTML_____ 
+<div>
+        <h2 class="title">Nguyễn Duy Ngọc</h2> ==>>> ( chọn thẻ phía sau thẻ đầu ) 
+        <h3></h3> 
+        <h2 class="title">Nguyễn Duy Ngọc</h2>
+        <h2 class="title">Nguyễn Duy Ngọc</h2>
+        <h2 class="title">Nguyễn Duy Ngọc</h2>
+        <h2 class="title">Nguyễn Duy Ngọc</h2>
+        <h2 class="title">Nguyễn Duy Ngọc</h2>   
+</div> 
+
+___CSS____
+.title ~ .title 
+{
+    color: red; 
+    font-size: 30px; 
+}
 
