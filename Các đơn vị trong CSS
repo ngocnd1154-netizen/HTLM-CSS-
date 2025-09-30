@@ -1,0 +1,117 @@
+Các đơn vị trong CSS
+
+1.Abosolute units ?
+ - px (giá trị tuyệt đối ) : định nghĩa cho 1 khối hoặc 1 chữ với kích thước nhất định 
+--> kích thước sẽ không thay đổi cố định, dù bị tác động lên 
+vd: 
+<style>
+        .box 
+        {
+          width: 100px; 
+          height: 100px; 
+          background-color: red; 
+        }
+        h1 
+        {
+          font-size: 40px;
+        }
+      </style>
+    </head>
+            
+    <body>
+      <div class="box"></div>
+
+2.Relative units ( cần có nơi phụ thuộc ) 
+- % ( đơn vị tương đối ): kích thước sẽ ko cố định, sẽ bị thay đổi 
+VD: 
+<style>
+        .box 
+        {
+          width: 50%; // bằng 1 nửa thẻ <body> 
+          height: 100px; 
+          background-color: red; 
+        }
+        h1 
+        {
+          font-size: 40px;
+        }
+      </style>
+    </head>
+            
+    <body>
+      <div class="box"></div>
+- rem : Phụ thuộc vào thẻ <html> 
+Vd: 
+<style>
+        html{
+               font-size: 40px; 
+        }
+        .box 
+        {
+          width: 50%; 
+          height: 100px; 
+          background-color: red; 
+        }
+        h1 
+        {
+          font-size: 1rem; // phụ thuộc vào thẻ <html>
+        }
+      </style>
+    </head>
+            
+    <body>
+      <div class="box"></div>
+      <div>
+        <h1> Nguyễn Duy Ngọc </h1> 
+         </div>
+- em: sẽ phụ thuộc vào thẻ gần nhất chứa font-size. 
+<style>
+        html{
+               font-size: 100%; 
+        }
+        .box 
+        {
+          width: 50%; 
+          height: 100px; 
+          background-color: red; 
+        }
+        h1 
+        {
+          font-size: 1em;
+        }
+      </style>
+    </head>
+            
+    <body style = "font-size: 24px;"> // em sẽ phụ thuộc vào đây 
+      <div class="box"></div>
+
+      <div>
+        <h1> Nguyễn Duy Ngọc </h1> 
+         </div> 
+- vw - width, vh - height: chiều dọc và chiều ngang bằng với màn hình  
+/viewport/  
+VD: 
+<style>
+        html{
+               font-size: 100%; 
+        }
+        .box 
+        {
+          width: 50vw; 
+          height: 50vh; 
+          background-color: red; 
+        }
+        h1 
+        {
+          font-size: 1rem;
+        }
+      </style>
+    </head>
+            
+    <body style = "font-size: 24px;">
+      <div class="box"></div>
+
+      <div>
+        <h1> Nguyễn Duy Ngọc </h1> 
+         </div>
+
