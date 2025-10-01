@@ -115,3 +115,9 @@ VD:
         <h1> Nguyễn Duy Ngọc </h1> 
          </div>
 
+- Reset margin được đặt mặc định. 
+ * {
+    margin: 0; /* Loại bỏ margin mặc định */
+    padding: 0; /* Loại bỏ padding mặc định */
+}
+
