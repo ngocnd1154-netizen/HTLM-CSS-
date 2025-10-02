@@ -1,0 +1,28 @@
+CSS Background-image | Thuộc tính Background-image 
+
+background-image: url();    //thêm ảnh vào nền web, có thể thêm nhiều hình ảnh bằng cách url(), url()-->> ảnh nào nằm trc thì ảnh đó sẽ hiện thị trc  
+
+background-size: canh chỉnh ảnh kích thước ( mặt định nó là lặp đi hình ảnh ) 
+- nếu đưa  giá trị thứ 2 vào thị nó sẽ hiểu là chiều cao. còn nếu ko đúng tỷ lệ sẽ bị méo ảnh 
+
+background-repeat: no-repeat: loại bỏ thuộc tính lặp lại 
+                  - repeat : tính lặp lại 
+                   - repeat-x : lặp lại chiều ngang
+                    - - repeat-y: lặp đi chiều dọc.    
+                  
+background-image: linear-gradient(0, #333, #000) --> tạo màu chuyển 
+                           0: hướng xoay độ (có đơn vị là deg )  
+                           #333 :màu bắt đầu chuyển 
+                           #000 : màu điểm cuối. 
+                background-image: linear-gradient(180deg, #333, #ccc); -- >> đảo ngược lại 
+               background-image: linear-gradient(#333, #ccc); --> khi bỏ độ ctr sẽ mặc định là 180deg hoặc 180deg 
+
+- kết hợp màu với hình ảnh. 
+ background-image: linear-gradient (), url () ; 
+
+- ứng dụng hình ảnh lặp lại: 
+B1: lên gg tìm repeat background stock image 
+B2: 
+background-image: url(https://img.freepik.com/free-vector/repeat-dotted-geometric-texture-banner-fabric-design_1017-45254.jpg);
+background-size: 100px; 
+->> tạo ra những những hình ảnh backgroud lặp lại đẹp mắt cho wed 
