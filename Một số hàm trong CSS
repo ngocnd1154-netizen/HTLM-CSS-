@@ -1,0 +1,17 @@
+- Một số hàm trong CSS. 
+
+background: rgb(206, 21, 21); --> ra màu đặt, không nhìn xuyên qua đc. 
+
+calc() : tính toán + - * / 
+VD: width: calc(120px - 50px); 
+
+attr () 
+VD: 
+.box::after{ 
+          content: "Xin chào các bannn ";
+          }
+
+        a::after 
+        {
+          content: " (" attr(href)")"; 
+        }
