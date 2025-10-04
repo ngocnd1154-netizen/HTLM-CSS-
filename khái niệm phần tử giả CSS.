@@ -1,0 +1,32 @@
+___________-khái niệm phần tử giả CSS. _________
+* ::before và ::after 
+VD: 
+.box-1::before {
+            content: "Bản tin";
+            display: block; 
+            width: 50px;
+            height: 50px;
+            background-color: #fff;
+          }
+           .box-1::after {
+            content: "";
+            display: block; 
+            width: 50px;
+            height: 50px;
+            background-color: #fff;
+          }
+- Dùng để tạo ra ô vuông phía bên trái màn hình, có thể tạo thuộc tính. 
+*:first-letter 
+- chữ cái đầu tiên sẽ to ra( có thể lắp tất cả các thuộc tính khác ) 
+VD: 
+h1::first-letter { 
+            font-size:50px; 
+            color: red;
+          } 
+* :first-line 
+- Dòng đầu tiên sẽ bị tác động ( áp dụng tất cả các thuộc tính ) 
+ * <br />: xuống Dòng 
+* :selection
+- khi bạn bôi chuột vào thuộc tính bạn chọn sẽ bị tác động 
+
+
