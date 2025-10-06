@@ -1,0 +1,13 @@
+_______Thuộc tính border (đường viền)_____ 
+
+-border: tạo đường viền cho thuộc tính 
+--> cách viết dài: 
+ border-top-width: 10px; 
+ border-right-width: 12px ;
+ border-bottom-width: 10px ;
+ border-left-width: 12px  ;
+ border-style: solid;
+ border-color: #333;  
+----> cách viết dài 
+border: 10px solid red;  
+==> viết theo chiều: border-top: 10px solid red; (bottom, left, right cũng ik chang ) 
