@@ -1,4 +1,12 @@
 ________Thuộc tính box-sizing_______
 
 box-sizing: border-box;
-->> tự động tính đoán: kích thước khai báo - border - padding = 
+->> tự động tính đoán: kích thước khai báo - border - padding; 
+
+- nguyên chế hoạt động của box-sizing
+= tổng kích thước border + padding + kích thước content =
+kích thước khai báo trừ đi kích thước border trừ padding = content
+
+- các thuộc tính khác: 
+  box-sizing: content-box;  
+box-sizing: unset; 
