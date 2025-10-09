@@ -1,0 +1,4 @@
+________Thuộc tính box-sizing_______
+
+box-sizing: border-box;
+->> tự động tính đoán: kích thước khai báo - border - padding = 
