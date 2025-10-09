@@ -16,17 +16,17 @@ VD:
             background-color: #fff;
           }
 - Dùng để tạo ra ô vuông phía bên trái màn hình, có thể tạo thuộc tính. 
-*:first-letter 
+*::first-letter 
 - chữ cái đầu tiên sẽ to ra( có thể lắp tất cả các thuộc tính khác ) 
 VD: 
 h1::first-letter { 
             font-size:50px; 
             color: red;
           } 
-* :first-line 
+* ::first-line 
 - Dòng đầu tiên sẽ bị tác động ( áp dụng tất cả các thuộc tính ) 
  * <br />: xuống Dòng 
-* :selection
+* ::selection
 - khi bạn bôi chuột vào thuộc tính bạn chọn sẽ bị tác động 
 
 
