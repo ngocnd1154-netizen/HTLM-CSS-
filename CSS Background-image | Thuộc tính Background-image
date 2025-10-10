@@ -30,3 +30,8 @@ background-size: 100px;
 
 _______________Thuộc tính background-size với cover, contain_________________
 
+ * background-size: contain; 
+- lấy chiều dài nhất có thể,.-> để lại khoảng trắng 
+ * background-size: cover; 
+- lấy chiều dài bức nhưng nó sẽ chấp nhận che khuất đi bức ảnh. -> tính chất của nó là không để lại khoảng trắng 
+
