@@ -1,1 +1,11 @@
+_________Thuộc tính Background-clip______ 
+áp dụng cho backgroud-color. 
+-background-clip: content-box -> mặt định của nó 
+=>>quyết định background đổ màu  từ danh giới (border, padding,
+content) 
+
+
 __________Thuộc tính background-origin______________ 
+áp dụng cho backgroud-image. 
+- backgroud-origin: 
+=>> tương tự như bg-clip 
