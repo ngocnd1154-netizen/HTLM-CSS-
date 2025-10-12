@@ -7,5 +7,5 @@ content)
 
 __________Thuộc tính background-origin______________ 
 áp dụng cho backgroud-image. 
-- backgroud-origin: 
+- backgroud-origin: padding-box -> mặt định của nó
 =>> tương tự như bg-clip 
