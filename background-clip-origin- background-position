@@ -1,0 +1,39 @@
+_________Thuộc tính Background-clip______ 
+áp dụng cho backgroud-color. 
+-background-clip: content-box -> mặt định của nó 
+=>>quyết định background đổ màu  từ danh giới (border, padding,
+content) 
+
+
+__________Thuộc tính background-origin______________ 
+
+áp dụng cho backgroud-image. 
+- backgroud-origin: padding-box -> mặt định của nó
+=>> tương tự như bg-clip 
+
+________ Thuộc tính background-position_____ 
+
+tùy chỉnh vị trí hình ảnh nền mà bạn muốn 
+background-position: top (bottom) 
+- áp dụng cho các tham số top, bottom, left, right. 
+VD: 
+background-position: bottom left;
+background-position:top right; 
+background-position: top; hoặc background-position: top center; 
+==>> đều giống nhau vì giá trị thử 2 sẽ là center tương tự với bottom. 
+
+-- > có thể gán giá trị số vào 
+VD: 
+background-position: 50px; 
+==> tạo ra khoảng cách mép bên tay phải 50px. 
+
+-->> kết hợp gtri tham số và sô. 
+VD:
+background-position: top 50px right 50px; 
+
+-->> tùy chỉnh giá trị số. 
+VD: 
+background-position:50px 30px; 
+=> khoảng cách phía bên phải là 50px, còn ở trên 30px; 
+
+
