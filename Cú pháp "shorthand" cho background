@@ -1,0 +1,9 @@
+_____Cú pháp "shorthand" cho background__________
+- > viết gộp các thuộc tính trong background 
+VD: 
+background-image: url(https://img.pcauto.com/model/images/modelPic/my/2024/09/716/446381748_1725951823684_600x400.jpg);     
+background-repeat: no-repeat;      
+background-position: center; 
+background-size: contain; 
+=>> 
+background: url(https://img.pcauto.com/model/images/modelPic/my/2024/09/716/446381748_1725951823684_600x400.jpg) no-repeat center / contain;
