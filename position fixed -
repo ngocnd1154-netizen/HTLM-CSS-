@@ -1,0 +1,23 @@
+_____CSS position fixed_______ 
+- sử dụng khi phụ thuộc vào cửa sổ của trình duyệt 
+VD: 
+.box {
+            height: 50px; 
+            background-color: #333; 
+            position: fixed; 
+            top: 0;  
+            left: 0; 
+            right: 0; 
+          } 
+
+_____CSS position sticky______ 
+- thường dùng để làm menu, bám dính.   
+VD: 
+ h1 {
+            padding: 16px; 
+            color: #fff; 
+            background-color: #333; 
+            position: sticky; 
+            position: -webkit-sticky; 
+            top: 10px;
+          }
