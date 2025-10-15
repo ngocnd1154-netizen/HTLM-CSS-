@@ -1,0 +1,21 @@
+______Phân biệt & gọi tên các thành phần______ 
+- những thành phần thường gặp trên giao diện website. 
+1. Header( đầu trang ) 
+2. Navigation ( điều hướng) 
+3. breadcrumb (Map hướng cho bạn đang biết ở đâu ) 
+4. sidebar( một cái thanh đặt một phía ở bên màn hình ) 
+5. slider ( màn trình diễn các nội dung thường là hình ảnh )
+6. content (nội dung chính của wed ) 
+7. Banner ( ảnh quảng cáo ) 
+8. Footer ( chân trang cuối trang wed ) 
+
+- Phân tích dự Á - 
+1. Header 
+2. slider 
+3. content  
+    - about (giới thiệut )
+     - tour 
+     - contact 
+     - image 
+     - Footer
+4. Footer
