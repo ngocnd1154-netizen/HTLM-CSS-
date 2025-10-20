@@ -1,0 +1,19 @@
+_______căn giữ_____ 
++ theo chiều ngang:
+- text-align: center; 
+trường hợp có thẻ con thì nên dùng luôn cho thẻ con. 
+trường hợp nhiều thẻ con thì dùng trong thẻ cha. 
++ theo chiều dọc: 
+- line-height: 100px;   
+thuộc tính này căn giữa chiều cao theo thẻ chứa 
+* lưu ý: 2 thuộc tính này có tính kế thừa. 
+
+  + sử dụng position.
+  .thẻ_cha{ 
+          position: relative;
+  } 
+  thẻ_con { 
+  positon: absolute;  
+  top: 50%; 
+  left: 50%; 
+transform: translate(-50%, -50%); 
