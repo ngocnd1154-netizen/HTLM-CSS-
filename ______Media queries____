@@ -1,0 +1,15 @@
+Media queries: 
+- xuất từng vùng hiện trên các giao diện như PC, Tablet(ipad, máy tính bảng), mobile
+=> nhỏ hơn 800px sẽ chạy
+ @media (max-width: 800px) {
+     /* CSS */
+ }
+=> lớn hơn 800px sẽ 
+ @media (min-width: 800px) {
+     /* CSS */
+ }
+
+giá trị kích thước từng giao diện: 
+- PC: >= 1024px; 
+-tablet: >= 740px & < 1024px ; 
+- mobile: < 740px; 
