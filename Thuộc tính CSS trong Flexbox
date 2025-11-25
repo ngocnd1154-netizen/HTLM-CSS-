@@ -3,8 +3,10 @@ ____CSS Flexbox___
 - display: flex| inline-flex
 ==> quyết định xem mình có sử dụng layout flex box hay ko ( flex container và flex item ) 
 
-- flex-direction: row | column 
-==> thay đổi phương hướng của main ( row: nằm ngang, column: nằm dọc )
+- flex-direction: row | column | column-reveres 
+==> row-reveres: ngược lại với row 
+==> column-reveres: ngược lại có column 
+==> thay đổi phương hướng của flex item theo chiều main axis ( row: nằm ngang, column: nằm dọc )
 
 - flex-wrap: nowrap | wrap (xuống dòng) | wrap-reverse (đảo chiều) 
 ==> giá trị mặt định của nó là ko xuống dòng (nowrap) 
@@ -12,7 +14,10 @@ ____CSS Flexbox___
 - flex-basis: <length> 
 ==> xét kích thước cho main size (flex item) 
 
-- justify-content: flex-start | flex-end | center | space-between | space-around
+- justify-content: flex-start | flex-end | center | space-between | space-around  | space-evenly (khoảng cách mép trái và mép phải bằng nhau )
+==> space-evenly: tạo khoảng cách mép trái và mép phải bằng nhau 
+==> space-around: tạo khoảng cách 2 bên mép bằng 1 nửa khoảng cách ở giữa
+==> space-between: tạo khoảng cách chính giữa
 ==> căng được các flex item theo các phương cùng với phương main axis. 
 ==> thuộc tính này dành cho thẻ cha. 
 
