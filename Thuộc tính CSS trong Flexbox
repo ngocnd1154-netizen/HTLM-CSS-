@@ -4,8 +4,8 @@ ____CSS Flexbox___
 ==> quyết định xem mình có sử dụng layout flex box hay ko ( flex container và flex item ) 
 
 - flex-direction: row | column | column-reveres 
-==> row-reveres: ngược lại với row 
-==> column-reveres: ngược lại có column 
+==> row-reveres: ngược huowng với row 
+==> column-reveres: ngược hướng có column 
 ==> thay đổi phương hướng của flex item theo chiều main axis ( row: nằm ngang, column: nằm dọc )
 
 - flex-wrap: nowrap | wrap (xuống dòng) | wrap-reverse (đảo chiều) 
@@ -23,6 +23,10 @@ ____CSS Flexbox___
 
 - justify-self: flex-start | flex-end | center 
 ==> Dành cho thẻ con 
+
+-align-items: center | flex-start | flex-end | baseline | stretch 
+==> 
+==> 
 
 - align-content: flex-start | flex-end | center 
 ==> xét cùng phương hướng với trục cross axis 
