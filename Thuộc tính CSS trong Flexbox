@@ -32,40 +32,6 @@ ____CSS Flexbox___
 ==> ngược lại với thằng ở trên 
 
 - flex: <number> 
-==> cú pháp shothen Flexbox___ 
-
-- display: flex| inline-flex
-==> quyết định xem mình có sử dụng layout flex box hay ko ( flex container và flex item ) 
-
-- flex-direction: row | column 
-==> thay đổi phương hướng của main ( row: nằm ngang, column: nằm dọc )
-
-- flex-wrap: nowrap | wrap (xuống dòng) | wrap-reverse (đảo chiều) 
-==> giá trị mặt định của nó là ko xuống dòng (nowrap) 
-
-- flex-basis: <length> 
-==> xét kích thước cho main size (flex item) 
-
-- justify-content: flex-start | flex-end | center | space-between | space-around
-==> căng được các flex item theo các phương cùng với phương main axis. 
-==> thuộc tính này dành cho thẻ cha. 
-
-- justify-self: flex-start | flex-end | center 
-==> Dành cho thẻ con 
-
-- align-content: flex-start | flex-end | center 
-==> xét cùng phương hướng với trục cross axis 
-
-- align-self: flex-star | flex-end | center
-==> dùng để xét cho flex item 
-
-- flex-grow: <number> 
-==> thay đổi kích thước của main size theo chiều của main axis
-
-- flex-shrink:<number> 
-==> ngược lại với thằng ở trên 
-
-- flex: <number> 
 ==> cú pháp shothen của flex-basis ,flex-grow ,flex-shrink 
 
 - order:<number>
