@@ -14,6 +14,7 @@ ____CSS Flexbox___
 - flex-basis: <length> 
 ==> xét kích thước cho main size (flex item) 
 
+* Dành cho trục main 
 - justify-content: flex-start | flex-end | center | space-between | space-around  | space-evenly (khoảng cách mép trái và mép phải bằng nhau )
 ==> space-evenly: tạo khoảng cách mép trái và mép phải bằng nhau 
 ==> space-around: tạo khoảng cách 2 bên mép bằng 1 nửa khoảng cách ở giữa
