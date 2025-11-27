@@ -15,6 +15,9 @@ ____CSS Flexbox___
 - flex-basis: <length> 
 ==> xét kích thước cho main size (flex item) 
 
+-flex-flow = flex-direction + flex-wrap
+==> VD: flex-flow: column wrap; 
+
 * Dành cho trục main 
 - justify-content: flex-start | flex-end | center | space-between | space-around  | space-evenly (khoảng cách mép trái và mép phải bằng nhau )
 ==> space-evenly: tạo khoảng cách mép trái và mép phải bằng nhau 
@@ -26,10 +29,12 @@ ____CSS Flexbox___
 - justify-self: flex-start | flex-end | center 
 ==> Dành cho thẻ con 
 
--align-items: center | flex-start | flex-end | baseline | stretch 
+* theo chiều trục cross axis 
+- align-items: center | flex-start | flex-end | baseline | stretch 
 ==> 
 ==> 
 
+* theo trục cross axis. 
 - align-content: flex-start | flex-end | center 
 ==> xét cùng phương hướng với trục cross axis 
 
