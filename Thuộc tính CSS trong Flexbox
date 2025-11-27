@@ -3,6 +3,7 @@ ____CSS Flexbox___
 - display: flex| inline-flex
 ==> quyết định xem mình có sử dụng layout flex box hay ko ( flex container và flex item ) 
 
+* đảo ngược trụ main axis 
 - flex-direction: row | column | column-reveres 
 ==> row-reveres: ngược huowng với row 
 ==> column-reveres: ngược hướng có column 
