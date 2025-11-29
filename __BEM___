@@ -1,0 +1,65 @@
+____BEM____ 
+
+## ý nghĩa: 
+- viết tắt của: Block Element Modifier
+- Bloc: khối ( thẻ cha ) 
+- Element: những phần tử trong cái khối 
+- Modifier: bổ sung ý nghĩa cho block và Element 
+
+## tại sao phải dùng BEM ? 
+- mỗi người đặt một kiểu 
+- dùng làm cho team, 1 nhóm
+- Members đặt class trùng nhau, css đè lên nhau 
+
+## Cú pháp 
+- .block 
+- .block_element 
+- .block--modifier
+- .block_element--modifier 
+
+## Tính ứng dụng 
+- XD layout wedsite
+- XD thành phần trân wedsite 
+
+## ưu điểm 
+- Tính rõ ràng 
+- Tái sử dụng dễ dàng 
+- giúp cả team làm việc hiệu quả và dễ dàng với nhau 
+- Tính module, không lo css của class này ảnh hưởng lên css của class khác 
+
+## Nhược điểm
+- Tên class dài 
+- Một số người cho là xấu 
+
+# Nhược điểm 
+- Tên class dài
+- Một số ng cho là xấu 
+
+# Khi nào sử dụng BEM là PHÙ HỢP ? 
+==> KHÔNG CẦN XỊN NHẤT KHÔNG CẦN NÓ TỐT NHẤT CHỈ CẦN PHÙ HỢP NHẤT 
+- Dự án nhiều members, nhiều người. 
+- Dự án lớn, số lượng pages nhiều hoặc số lượng các
+thành phần trên giao diện nhiều 
+
+## Thực hành 
+- làm button 
+- làm message
+- Làm 1 thành phần trên 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
