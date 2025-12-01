@@ -1,0 +1,86 @@
+____HTML_____
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="Father">
+        <button class="btn btn--success btn-size-">GO TO NEXT APPROVAL</button>
+        <button class="btn btn--warn btn--disabled"> OK</button> 
+        <button class="btn btn--danger"> TRY AGAIN</button>
+    </div>
+    
+</body>
+</html>
+
+___CSS___  
+body, html {
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Helvetica Neue";
+    /* Khoảng cách giữa các nút */
+    gap: 5px;
+} 
+
+body > div {
+    margin: auto;
+}
+
+/* Làm Button 
+    - Enabled: Pointer, hover, effect 
+    - Disabled: Arrow, no effect */
+
+/* Block */ 
+.btn {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    padding: 12px 48px;
+    border-radius: 50px;
+    /* cử chỉ ngón tay  */
+    cursor: pointer;
+    /* làm nút sinh động hơn */
+    transition: opacity .2s ease; 
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+/* css cho thag btn nao ma dung canh btn o phia sau */
+.btn + .btn {
+    margin-left: 16px;
+}
+
+.btn--success{ 
+   background-color:chartreuse;
+}
+
+.btn--warn{
+   background-color:orange ;
+    
+}
+
+.btn--danger{
+   background-color:rgb(245, 56, 56) ;
+  
+}
+
+.btn--disabled{
+    opacity: 0.5 !important; 
+    cursor: default;
+}
