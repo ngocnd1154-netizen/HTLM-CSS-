@@ -10,3 +10,5 @@ kích thước khai báo trừ đi kích thước border trừ padding = content
 - các thuộc tính khác: 
   box-sizing: content-box;  
 box-sizing: unset; 
+
+____ Box-shadow_____ 
